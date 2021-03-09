@@ -1,0 +1,117 @@
+.box {
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 5px 5px #000000;
+}
+
+
+.services-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.workbox{
+    margin: 3em;
+    margin-top: 5em;
+    width: 350px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.workbox:hover{
+    margin: 3em;
+    border-bottom: 2px solid #35b729;
+    width: 400px;
+    height: 450px;
+    transition: 2s;
+}
+
+.workbox p{
+    padding-left: 2em;
+    font-size: 0.9em;
+    text-align: left;
+    color: #8d8c8c;
+    font-weight: 500;
+}
+
+.workbox em{
+    text-align: center;
+    font-weight: bold;
+    color: #35b729;
+}
+
+
+
+.workbox i:hover{
+    color: #35b729;
+}
+
+
+.workbox li{
+    padding-top: 0.2em;
+    font-size: 1.3em;
+    list-style: none;
+    color: black;
+    font-weight: 400;
+}
+
+.workbox li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #35b729; /* Change the color */
+  font-weight: 1000; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.workbox p{
+    padding-top: 2em;
+}
+
+.onDescription {
+    margin-bottom: 2em;
+    width: 100%;
+    height: 40%;
+    font-size: 0.8em;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 3;
+    opacity: 0%;
+}
+
+.onDescription:hover {
+    max-width: 350px;
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    border: 3px solid rgba(255,255,255,0.8);
+    background: rgba(0,0,0,0.9);
+    
+    transition:linear 0.5s;
+    
+    border-bottom: 18px solid;
+    border-image-source: linear-gradient(45deg, #89216B, #ffd452);
+    border-image-slice: 1;
+    border-radius: 8px;
+
+
+    z-index: 2;
+}
+
+
+.box h1 {
+    padding-top: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+  
